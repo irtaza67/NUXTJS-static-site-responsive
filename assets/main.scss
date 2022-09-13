@@ -1,0 +1,58 @@
+$base-color-button: #01a4b7;
+$base-color-button-hover: #007E91;
+.get-in-touch {
+    color:white;
+    background-color:$base-color-button;
+    width: 151px;
+    height: 50px;
+    border:none;
+    transition:.3s;
+    border-radius:3.4px;
+    &:hover {
+        background-color: $base-color-button-hover;
+        transition:.3s;
+    }
+  }
+  .standard-btn {
+    color:white;
+    background-color:$base-color-button;
+    height: 50px;
+    border:none;
+    transition:.3s;
+    border-radius:3.4px;
+    &:hover {
+        background-color: $base-color-button-hover;
+        transition:.3s;
+    }
+  }
+
+  .c-white {
+      color:#FFFFFF;
+  }
+.f-16 {
+    font-size: 16px;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-heading {
+    font-size: 27px;
+}
+.f-c-bl {
+    color: #3D4D62;
+}
+.bg-seagreeen {
+    background-color: #006B6E;
+}
+
+@media only screen and (max-width: 1024px) {
+    .f-16 {
+        font-size: 15px;
+    }
+    .f-14 {
+        font-size: 13px;
+    }
+    .f-heading {
+        font-size: 21px;
+    }
+}
